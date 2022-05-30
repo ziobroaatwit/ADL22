@@ -10,14 +10,19 @@ When adding the 5 layers of 128 neurons alone without changing the Epoch, the MS
 ## 2. Intro to convolution operations: Padding.
 -What is a response layer? (Give a brief, 1-sentence description)
 A response layer is the result of a convolution using a filter, when multiple layers are used they become stacked. 
+
 -Given the filter shape of (26, 26, 32), what does each number represent?
 26x26 resolution/shape of grid. 32 filters.
+
 -Given 6x6 input and filter of (3,3): what is the response shape that we get? 
 If I followed the lecture correctly, it will be 5x5, resulting in 25 responses. 
+
 -Given (33, 33, 1) input and filter of (2,2): what is the response shape that we get? 
 33-2+1, so (32,32)
+
 -What is the difference between ‘valid’ and ‘same’ padding? Given 6x6 input and filter of (3,3),
 Valid = no padding, so 6-3+1 you'd get a shape of 4x4. With Same padding, padding will be added such that output=input responses. Thus the shape will be (6,6). 
+
 -what are the response shapes for both options? 
 (4,4) for Valid, (6,6) for Same. 
 
